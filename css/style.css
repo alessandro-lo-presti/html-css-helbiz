@@ -54,4 +54,12 @@ a:hover {
   background-size: cover;
   height: 500px;
   position: relative;
+  color: white;
+}
+
+.jumbotron div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
