@@ -28,6 +28,11 @@ a:hover {
   vertical-align: middle;
 }
 
+.header-top .nav-language :not(li:last-child) a{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
 .header-top li {
   display: inline-block;
   padding-right: 10px;
