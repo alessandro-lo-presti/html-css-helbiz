@@ -87,8 +87,17 @@ section {
   text-align: center;
 }
 
-.bikes-section div{
+.bikes-section .box{
   background-color: #fafafa;
+  margin-left: calc(100% / 12 / 3);
+}
+
+.bikes-section h2 {
+  padding-top: 30px;
+}
+
+.bikes-section p {
+  margin: 20px 0;
 }
 
 .bikes-section img {
