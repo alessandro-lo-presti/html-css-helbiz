@@ -89,7 +89,7 @@ section {
 
 .bikes-section .box{
   background-color: #fafafa;
-  margin-left: calc(100% / 12 / 3);
+  margin-left: calc(100% / 12 / 3 * 2);
 }
 
 .bikes-section h2 {
@@ -106,10 +106,23 @@ section {
 
 
 
+
 @media screen and (max-width: 768px) {
 
+  /* header */
   .jumbotron h1 {
     font-size: 28px;
+  }
+
+  /* main */
+  .bikes-section .box{
+    background-color: #fafafa;
+    margin-bottom: 30px;
+  }
+
+  .bikes-section .box{
+    background-color: #fafafa;
+    margin-left: calc(100% / 12 / 2 * 2);
   }
 
 }
