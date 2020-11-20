@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -10,13 +14,28 @@ a:hover {
   text-decoration: underline;
 }
 
-/* header */
-header li {
-  display: inline-block;
-  padding-right: 20px;
+.text-right {
+  text-align: right;
 }
 
-header a {
-  color: black;
+/* header */
+.header-top {
+  height: : 80px;
+  line-height: 80px;
+}
+
+.header-top .logo {
+  vertical-align: middle;
+}
+
+.header-top li {
+  display: inline-block;
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-top a {
+  color: #343434;
   text-transform: uppercase;
 }
