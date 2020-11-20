@@ -19,6 +19,8 @@ a:hover {
 }
 
 /* header */
+
+/* header-top */
 .header-top {
   height: : 80px;
   line-height: 80px;
@@ -43,4 +45,13 @@ a:hover {
 .header-top a {
   color: #343434;
   text-transform: uppercase;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
 }
