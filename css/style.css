@@ -77,6 +77,26 @@ a:hover {
   margin: 15px;
 }
 
+/* main */
+section {
+  padding: 60px 0;
+}
+
+/* bikes-section */
+.bikes-section {
+  text-align: center;
+}
+
+.bikes-section div{
+  background-color: #fafafa;
+}
+
+.bikes-section img {
+  width: 400px;
+}
+
+
+
 @media screen and (max-width: 768px) {
 
   .jumbotron h1 {
