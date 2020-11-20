@@ -101,10 +101,9 @@ section {
 }
 
 .bikes-section img {
-  width: 400px;
+  max-width: 400px;
+  width: 90%;
 }
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -116,13 +115,9 @@ section {
 
   /* main */
   .bikes-section .box{
-    background-color: #fafafa;
     margin-bottom: 30px;
-  }
-
-  .bikes-section .box{
-    background-color: #fafafa;
     margin-left: calc(100% / 12 / 2 * 2);
   }
+
 
 }
