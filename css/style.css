@@ -99,7 +99,7 @@ section {
   margin-left: calc(100% / 12 / 3 * 2);
 }
 
-.bikes-section h2 {
+.bikes-section h3 {
   padding-top: 30px;
 }
 
@@ -143,6 +143,83 @@ section {
   font-size: 32px;
 }
 
+/* photo-section */
+.photo-section {
+  padding: 0;
+  font-weight: bold;
+}
+
+.photo-section .row:first-child {
+  margin-bottom: 30px;
+}
+
+.photo-section .row:first-child .container {
+  height: 500px;
+  background-image: url("../img/scooter.f0a0397.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo-section .box {
+  height: 500px;
+  position: relative;
+}
+
+.photo-section .row .box div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+
+.photo-section .row:first-child .box h3{
+  font-size: 42px;
+}
+
+.photo-section .row:first-child .box p {
+  margin: 30px 0;
+}
+
+.photo-section .row:last-child .box div{
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.photo-section .row:last-child .box h3{
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+.photo-section .row:last-child .box p {
+  margin: 15px 0;
+}
+
+.photo-section .box a{
+  color: white;
+}
+
+.photo-section .row:last-child .box {
+  width: calc(100% / 12 * 6 - 15px);
+}
+
+.photo-section .row:last-child .box:first-child{
+  margin-right: 30px;
+  background-color: #3b4e60;
+  background-image: url("../img/iphone-bg.2dae1bd.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center 270px;
+}
+
+.photo-section .row:last-child .box:last-child{
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -173,7 +250,7 @@ section {
     font-size: normal;
   }
 
-  .phone-section h2{
+  .phone-section h3{
     margin-top: 60px;
     max-width: auto;
     font-size: 32px;
@@ -181,6 +258,16 @@ section {
 
   .phone-section h4{
     margin: 30px auto 20px;
+  }
+
+  /* photo-section */
+  .photo-section .row:last-child .box {
+    width: 100%;
+    margin: 0;
+  }
+
+  .photo-section .row:last-child .box:first-child {
+    margin-bottom: 30px;
   }
 
 }
