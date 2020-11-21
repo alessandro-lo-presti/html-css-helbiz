@@ -14,6 +14,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-right {
   text-align: right;
 }
@@ -65,7 +73,6 @@ a:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
   color: white;
 }
 
@@ -78,10 +85,12 @@ a:hover {
 }
 
 /* main */
+section {
+  padding: 60px 0;
+}
 
 /* bikes-section */
 .bikes-section {
-  padding: 60px 0;
   text-align: center;
 }
 
@@ -109,6 +118,33 @@ a:hover {
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% 50%;
+}
+
+.phone-section .box {
+  height: 511px;
+  position: relative;
+}
+
+.phone-section .box div{
+  position: absolute;
+  top: 75%;
+}
+
+.phone-section .box:first-child div{
+  right: 0px;
+}
+
+.phone-section .box:first-child h2{
+  max-width: 160px;
+}
+
+.phone-section .box:last-child{
+  font-size: 14px;
+}
+
+
+.phone-section img {
+  width: 256px;
 }
 
 @media screen and (max-width: 768px) {
