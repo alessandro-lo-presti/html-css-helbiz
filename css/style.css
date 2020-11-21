@@ -127,25 +127,22 @@ section {
 
 .phone-section .box div{
   position: absolute;
-  top: 75%;
+  top: 70%;
 }
 
 .phone-section .box:first-child div{
   right: 0px;
 }
 
-.phone-section .box:first-child h2{
-  max-width: 160px;
-}
-
-.phone-section .box:last-child{
-  font-size: 14px;
-}
-
-
-.phone-section img {
+.phone-section .box:nth-child(2) img {
   width: 256px;
 }
+
+.phone-section h2{
+  max-width: 250px;
+  font-size: 32px;
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -155,10 +152,35 @@ section {
   }
 
   /* main */
+
+  /* bikes-section */
   .bikes-section .box{
     margin-bottom: 30px;
     margin-left: calc(100% / 12 / 2 * 2);
   }
 
+  /* phone-section */
+  .phone-section .box {
+    height: auto;
+  }
+
+  .phone-section .box div{
+    margin-left: 100px;
+    position: static;
+  }
+
+  .phone-section .box:last-child{
+    font-size: normal;
+  }
+
+  .phone-section h2{
+    margin-top: 60px;
+    max-width: auto;
+    font-size: 32px;
+  }
+
+  .phone-section h4{
+    margin: 30px auto 20px;
+  }
 
 }
