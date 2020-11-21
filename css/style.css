@@ -78,12 +78,10 @@ a:hover {
 }
 
 /* main */
-section {
-  padding: 60px 0;
-}
 
 /* bikes-section */
 .bikes-section {
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -105,6 +103,13 @@ section {
   width: 90%;
 }
 
+/* phone-section */
+.phone-section {
+  background-image: url("../img/index-banner.1f6fd0a.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 50%;
+}
 
 @media screen and (max-width: 768px) {
 
