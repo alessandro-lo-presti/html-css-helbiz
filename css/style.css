@@ -251,6 +251,37 @@ section {
   padding-right: 0;
 }
 
+/* footer */
+footer {
+  padding: 60px 0;
+  background-color: black;
+}
+
+/* footer-top */
+footer .footer-top h3{
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .logo {
+  margin-top: -10px;
+  font-size: 32px;
+}
+
+footer .footer-top li {
+  padding-bottom: 20px;
+}
+
+footer .footer-top li a {
+  color: grey;
+}
+
+@media screen and (max-width: 992px) {
+
+  footer {
+    padding-left: 30px;
+  }
+}
 
 @media screen and (max-width: 768px) {
 
