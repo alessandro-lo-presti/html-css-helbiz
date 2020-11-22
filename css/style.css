@@ -255,30 +255,65 @@ section {
 footer {
   padding: 60px 0;
   background-color: black;
+  color: white;
+}
+
+footer a {
+  color: white;
 }
 
 /* footer-top */
-footer .footer-top h3{
-  color: white;
+.footer-top {
+  margin: 30px 0;
+}
+
+.footer-top h3{
   text-transform: uppercase;
 }
 
-footer .logo {
+.footer-top .logo {
   margin-top: -10px;
   font-size: 32px;
 }
 
-footer .footer-top li {
+.footer-top li {
   padding-bottom: 20px;
 }
 
-footer .footer-top li a {
+.footer-top li a {
   color: grey;
 }
 
+/* footer-middle */
+.footer-middle {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.footer-middle div {
+  height: 120px;
+  line-height: 120px;
+}
+
+.footer-middle a {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.footer-middle a:hover{
+  text-decoration: none;
+}
+
+.footer-middle div > div:first-child a {
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+
+/* media-query */
 @media screen and (max-width: 992px) {
 
-  footer {
+  footer .container{
     padding-left: 30px;
   }
 }
