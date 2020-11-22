@@ -216,9 +216,39 @@ section {
 }
 
 .photo-section .row:last-child .box:last-child{
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/city.7c8c928.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* collage-section */
+.collage-section .row{
+  height: 500px;
+  background-image: url("../img/collage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  position: relative;
+}
+
+.collage-section .row div {
+  padding: 60px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.collage-section .row a {
+  padding-right: 20px;
+  color: black;
+}
+
+.collage-section .row a:last-child {
+  padding-right: 0;
 }
 
 
@@ -226,7 +256,7 @@ section {
 
   /* header */
   .jumbotron h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   /* main */
