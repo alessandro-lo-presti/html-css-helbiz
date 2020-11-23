@@ -42,9 +42,13 @@ a:hover {
   vertical-align: middle;
 }
 
-.header-top .nav-language :not(li:last-child) a{
+.header-top .nav-language li a{
   border-right: 2px solid black;
   padding-right: 10px;
+}
+
+.header-top .nav-language li:last-child a{
+  border-right: 0px;
 }
 
 .header-top li {
