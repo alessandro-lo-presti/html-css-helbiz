@@ -226,6 +226,10 @@ section {
 }
 
 /* collage-section */
+.collage-section {
+  padding: 30px 0;
+}
+
 .collage-section .row{
   height: 500px;
   background-image: url("../img/collage.jpeg");
