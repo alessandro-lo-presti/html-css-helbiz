@@ -312,13 +312,11 @@ footer a {
 /* footer-bottom */
 .footer-bottom {
   height: 150px;
-}
-
-.footer-bottom div {
-  line-height: 100px;
+  padding-top: 30px;
 }
 
 .footer-bottom a {
+  margin: 5px;
   padding: 18px;
   border: 1px solid white;
   border-radius: 10px;
@@ -383,6 +381,15 @@ footer a {
   }
 
   .photo-section .row:last-child .box:first-child {
+    margin-bottom: 30px;
+  }
+
+  /* footer-bottom */
+  .footer-bottom .row div {
+    text-align: center;
+  }
+
+  .footer-bottom .row div:first-child {
     margin-bottom: 30px;
   }
 
